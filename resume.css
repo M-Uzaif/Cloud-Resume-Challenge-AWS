@@ -1,0 +1,227 @@
+/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;700&display=swap');
+
+
+* {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  
+  /*body {
+      min-width: 500px;
+  }
+  
+  div {
+    border-radius: 5px;
+  }
+
+  h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+  }
+  
+  h2{
+    font-family: 'League Spartan';
+    font-size:xx-large;
+  }
+  #header {
+    height: 40px;
+    width: 100%;
+    background-color: #003084;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  #title {
+    margin-left: 3%;
+  }
+  
+  #footer {
+    height: 50px;
+    width: 100%;
+    background-color: #bec8f6;
+    clear: both;
+    position: relative;
+  }
+  
+  .left {
+    height: 1000px;
+    width: 45px;
+    background-color: #003084;
+    float: left;
+    position: inherit;
+  }
+  
+  .right {
+    height: 1000px;
+    width: 45px;
+    background-color: #003084;
+    float: right;
+    position: inherit;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+  }
+  
+  p,
+  li {
+    font-family:'League Spartan', sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
+  }
+  
+  .head {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  
+  #name {
+    font-family: Apple Chancery, cursive;
+    float:none;
+    margin-top: 0px;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-style:italic;
+    text-align: center;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  } */
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    /* 6max-width: 900px; */
+    margin: 0 auto;
+    padding: 20px 65px; /* Increased padding to account for fixed side bars */
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #003084;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.left,
+.right {
+  width: 45px;
+  background-color: #003084;
+  position: fixed;
+  top: 40px;
+  bottom: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.stuff {
+    flex: 1 0 auto; /* This allows the content to grow and push the footer down */
+    margin: 60px 0 20px 0; /* Adjusted margins */
+    padding: 20px;
+    background-color: #fff;
+  }
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #003084;
+}
+
+h2 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 2em;
+  color: #003084;
+}
+
+.head {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #003084;
+}
+
+p,
+li {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #003084;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#footer {
+    background-color: #318ce7;
+    padding-top: 15px;
+    text-align: center;
+    flex-shrink: 0; /* Prevents the footer from shrinking */
+    width: 100%;
+    margin-top: auto; /* Pushes the footer to the bottom */
+  }
+
+#name {
+  font-family: "League Spartan", sans-serif;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      padding: 10px 20px; /* Reduced side padding for mobile */
+    }
+  
+    .stuff {
+      margin: 20px 0;
+    }
+  
+    #footer {
+      position: relative; /* Changed from absolute to relative */
+    }
+  }
