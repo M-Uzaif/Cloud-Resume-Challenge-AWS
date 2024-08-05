@@ -1,6 +1,6 @@
 
 async function updateVisitorCount() {
-    const apiUrl = 'https://YOUR_API_GATEWAY_URL'; // Replace with your API Gateway URL
+    const apiUrl = 'https://2e2yjgph22av6ybxe6liwqpacm0xjewu.lambda-url.ap-south-1.on.aws/'; // Replace with your API Gateway URL
     
     try {
         const response = await fetch(apiUrl);
