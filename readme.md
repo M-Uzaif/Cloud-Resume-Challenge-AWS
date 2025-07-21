@@ -1,25 +1,25 @@
-# 🌥️ Cloud Resume Challenge
+# Cloud Resume Challenge
 
 Welcome to my **Cloud Resume Challenge** project!\
 This is a hands-on implementation of the [Cloud Resume Challenge](https://cloudresumechallenge.dev/), showcasing a static resume website hosted entirely on AWS, integrated with modern cloud services, serverless architecture, and CI/CD practices.
 
 ---
 
-## 📄 Project Overview
+##  Project Overview
 
 This project demonstrates my skills in both **cloud computing** and **web development** by building and deploying a static website resume using AWS services. The website features a visitor counter powered by serverless backend technologies.
 
 ---
 
-## 🧾 What's in the Project?
+##  What's in the Project?
 
-### 🔧 Frontend - Static Website
+###  Frontend - Static Website
 
 - `index.html` – Resume content
 - `styles.css` – Website styling
 - `script.js` – JavaScript logic for the visitor counter
 
-### ☁️ AWS Services Used
+###  AWS Services Used
 
 | Service         | Purpose                                                 |
 | --------------- | ------------------------------------------------------- |
@@ -29,13 +29,13 @@ This project demonstrates my skills in both **cloud computing** and **web develo
 | **API Gateway** | Creates RESTful API to connect frontend with backend    |
 | **DynamoDB**    | NoSQL database to store and retrieve visitor count      |
 
-### 🔁 CI/CD Pipeline
+###  CI/CD Pipeline
 
 - **GitHub Actions**: Automates deployment of website files to the S3 bucket.
 
 ---
 
-## 💡 What I Learned
+##  What I Learned
 
 This project gave me real-world experience with modern cloud technologies and development practices:
 
@@ -52,40 +52,20 @@ This project gave me real-world experience with modern cloud technologies and de
 
 ---
 
-## 🚀 Live Demo
 
-📍 *[Add your live URL here, if hosted]*
-
----
-
-## 📁 Folder Structure
-
-```bash
-.
-├── index.html
-├── styles.css
-├── script.js
-├── .github/
-│   └── workflows/
-│       └── deploy.yml  # GitHub Actions workflow for CI/CD
-└── README.md
-```
-
----
-
-## 🧠 Inspiration
+##  Inspiration
 
 The Cloud Resume Challenge is designed to give developers practical experience with cloud and DevOps technologies. It’s a great starting point for anyone beginning their cloud journey.
 
 ---
 
-## 📬 Feedback & Contributions
+## Feedback & Contributions
 
 Feel free to open issues or pull requests if you'd like to contribute or suggest improvements!
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
