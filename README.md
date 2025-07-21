@@ -3,12 +3,12 @@
 This project is an implementation of the Cloud Resume Challenge, showcasing a static website resume hosted on AWS with various cloud services integrated. The resume is built with HTML and CSS, and includes a visitor counter implemented with JavaScript and AWS services.
 
 # What's in the Project
-1. Static Website
+## 1. Static Website
 
   HTML file (index.html) containing the resume content
   CSS file (styles.css) for styling the resume
   JavaScript file (script.js) for implementing the visitor counter
-2. AWS Services Used
+## 2. AWS Services Used
 
   S3: Hosts the static website files
   CloudFront: Provides HTTPS and caching
